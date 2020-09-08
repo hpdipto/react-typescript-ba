@@ -7,7 +7,7 @@ const App: React.FC = () => {
     <div>
       {/*<TextField text="hello" person={{ firstName: "", lastName: "" }} />*/}
       <Counter>
-        {(count, setCount) => (
+        {({ count, setCount }) => (
           <div>
             {count}
             <button onClick={() => setCount(count + 1)}>+</button>
