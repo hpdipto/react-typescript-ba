@@ -1,3 +1,9 @@
+# React TypeScript
+
+The source code of this repository is taken from Ben Awad's [React Typescript Tutorial](https://www.youtube.com/watch?v=Z5iWr6Srsj8) tutorial.
+
+This is a nice introductory tutorial. I think I'll come back to this repository for future use of TypeScript with React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
