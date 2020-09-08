@@ -11,6 +11,7 @@ interface Props {
 	i?: number;
 	fn?: (bob: string) => string;
 	person: Person;
+	handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 interface TextNode {
@@ -24,7 +25,7 @@ export const TextField: React.FC<Props> = () => {
 
 	return (
 		<div ref={divRef}>
-			<input ref={inputRef} />
+			<input ref={inputRef} onChange={handleChange} />
 		</div>
 	);
 };
